@@ -1,4 +1,6 @@
 module.exports = {
+    host: 'localhost',
+    port: '8081',
     title: "Twentyyear的博客",
     description: "优秀不够，你是否无可替代",
     dest: "public",
@@ -59,6 +61,12 @@ module.exports = {
         type: "blog",
         friendLink: [
             {
+                title: 'yyq',
+                desc: '在我的记忆里这是一个热爱代码的美少男孩yyq，目前就职于华为某攻坚团队，我心中的大神选手',
+                logo: '/yyq.png',
+                link: 'https://www.hiyyq.cn/'
+            },
+            {
                 title: '1090影视',
                 desc: '一个高清在线视频站点',
                 link: 'http://1090ys2.com/'
@@ -68,6 +76,7 @@ module.exports = {
                 desc: '一个高清影视资源下载站点',
                 link: 'https://gaoqing.fm/'
             },
+
         ],
         //博客配置
         blogConfig: {
@@ -100,7 +109,7 @@ module.exports = {
         [
             "@vuepress-reco/vuepress-plugin-kan-ban-niang",
             {
-                theme: ['miku', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'z16'],
+                theme: ['shizuku', 'miku', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'z16'],
                 clean: false,
                 messages: {
                     welcome: '我是Twentyyear欢迎你的关注 ',
@@ -108,6 +117,27 @@ module.exports = {
                     theme: '切换看板娘模型。',
                     close: '再见哦'
                 }
+            }
+        ],
+        [
+            "@vuepress-reco/vuepress-plugin-bgm-player",
+            {
+                audios: [
+                    // 本地文件示例
+                    {
+                        name: 'secretbase',
+                        artist: '茅野愛衣',
+                        url: '/bgm/1.mp3',
+                        cover: '/logo.png'
+                    },
+                    // // 网络文件示例
+                    // {
+                    //     name: '',
+                    //     artist: '',
+                    //     url: '',
+                    //     cover: ''
+                    // },
+                ]
             }
         ]
     ]
