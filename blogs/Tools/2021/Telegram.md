@@ -17,7 +17,7 @@ categories:
 很容易成为”懂的都懂“。
 
 #  2.Telegram下载和安装
--  Telegram的下载安装及使用均需要梯子，不会的同学请移步，翻墙教学。
+-  Telegram的下载安装及使用均需要梯子，不会的同学请移步，[翻墙教学](/blogs/Tools/2021/vpn.md)。
 -  [Telegram官网下载地址](https://telegram.org/) 
 -  1.安装选择EngLish -> Next  (安装过程是没有中文语音的)
 -  2.选择安装位置（随意更改） -> Next 
